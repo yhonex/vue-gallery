@@ -237,6 +237,22 @@ body {
    border: none;
    cursor:pointer;
 }
+.btn1{
+    display: inherit;
+    background: black;
+    color: white;
+    padding: 15px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    max-width: 120px;
+    transition: 300ms all;
+    border: none;
+    cursor:pointer;
+    position:relative;
+    align-items: center;
+ }
 
 .btn-success{
     background: rgb(23, 150, 19);
@@ -249,6 +265,18 @@ body {
     background: rgb(173, 45, 6);
     text-align: center;
     color: white !important;
+}
+.btn-home{
+    background: rgba(55, 206, 80, 0.719);
+    text-align: center;
+    color: rgb(15, 4, 4) !important;
+}
+.btn-web{
+    background: rgba(29, 73, 167, 0.719);
+    text-align: center;
+    color: rgb(15, 4, 4) !important;
+    
+    
 }
 
 .btn-success:hover{
@@ -547,6 +575,8 @@ transition: transform .8S;
 
 .contact {
     text-decoration: none;
+    align-items: center;
+    display: inline;
 }
 .contact > img {
     width: 200px;

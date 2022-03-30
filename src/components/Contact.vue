@@ -13,9 +13,10 @@
                <h2> <strong> Apellido :</strong> Urbina Ovalles</h2>
                <h2><strong> Email :</strong>  yhonex4@gmail.com</h2>
                <h2><strong>  N° de telefono:</strong> +54 0 11 2731 7219</h2>
-                
+              <a href="https://mipagina-cv.herokuapp.com" class="btn1 btn-web" target="_blank">ir a mi web</a>
+                              
             </div>
-          
+           
                 
       </section>
       <Sidebar/>

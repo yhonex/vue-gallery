@@ -58,6 +58,7 @@ export default {
                 "El articulo creado correctamente!",
                 "success"
               );
+              this.$router.push("/galeria") ;
               //subida de archivo
               if (
                 this.file != null &&
@@ -86,7 +87,7 @@ export default {
                   .catch((error) => console.log(error));
               } else {
                 this.article = response.data.article;
-                this.$router.replace("/galeria");
+                this.$router.push("/galeria") ;
               }
             }
           })

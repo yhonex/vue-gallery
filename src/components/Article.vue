@@ -28,7 +28,7 @@
             >Editar</router-link
           ><a @click="deleteArticle(article._id)" class="btn btn-danger"
             >Eliminar</a
-          >
+          ><router-link to="/galeria" class="btn btn-home">ir a Galeria</router-link>
         
         </article>
       </section>
